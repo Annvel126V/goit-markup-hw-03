@@ -9,10 +9,11 @@ body{
      box-sizing: border-box;
 }
  .container{
-    width: 1158px;
+    max-width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
     
 
  }
@@ -132,7 +133,9 @@ body{
     }
     .our-team-card{
     background-color: #FFFFFF; 
-    display: block;  
+    display: block;
+    max-width: 100%;
+    height: auto; 
     }
     .our-team-list {
     font-weight: 500;
@@ -161,6 +164,8 @@ body{
     .our-portfolio-img{
     list-style: none;
     display: block;
+    max-width: 100%;
+    height: auto; 
        
     }
     .our-portfolio-list{
