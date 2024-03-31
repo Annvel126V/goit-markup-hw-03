@@ -72,6 +72,8 @@ body{
     font-style: normal
      }
     .nav-menu-address{
+    display:flex; 
+    flex-direction: row;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -94,6 +96,8 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
     }
     .button{
     background: #4d5ae5;
@@ -104,6 +108,7 @@ body{
     letter-spacing: 0.04em;
     cursor: pointer; 
     color: #fff; 
+    margin: 48px;
     }
     .button:hover,
     .button:focus{
@@ -116,6 +121,8 @@ body{
     letter-spacing: 0.02em;   
     }
     .options-list {
+    display:flex;
+    flex-direction: row; 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -151,6 +158,8 @@ body{
     .our-team-list {
     margin-bottom: 8px; 
     text-align: center;
+    display:flex;
+    flex-direction: row;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
