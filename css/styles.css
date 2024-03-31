@@ -57,6 +57,9 @@ body{
     }
     p{
       margin: 0;
+      padding: 0;
+      display: flex;
+     align-items: center;
     }   
     
     ul {
@@ -92,7 +95,7 @@ body{
       gap: 40px;
      }
     .nav-menu-address{
-    display:flex; 
+    display: flex; 
     flex-direction: row;
     font-weight: 400;
     font-size: 16px;
@@ -108,7 +111,12 @@ body{
     }
     
     .caption{
-    background-color: #2e2f42; 
+    background-color: #2e2f42;
+    max-width: 1440px; 
+    padding: 8px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
       
     }
     .caption-tekst{
@@ -130,7 +138,7 @@ body{
     letter-spacing: 0.04em;
     cursor: pointer; 
     color: #fff; 
-    margin: 48px;
+    margin: 0 auto;
     }
     .button:hover,
     .button:focus{
