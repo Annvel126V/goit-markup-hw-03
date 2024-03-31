@@ -225,6 +225,8 @@ body{
     display: block;
     max-width: 100%;
     height: auto; 
+    justify-content: space-around;
+    align-items: center;
        
     }
     .our-portfolio-list{
