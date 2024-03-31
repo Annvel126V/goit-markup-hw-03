@@ -16,15 +16,22 @@ body{
      h6 {
      margin: 0;
      }
-    .container-header{
-    max-width: 1128px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 0 auto;
+    .container{
+    max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
+    }
+    .header-container{
+     display: flex;
+     align-items: center; 
+    }
+    .navigetion{
+     display: flex;
+     align-items: center;
     }
     .header{
     color: #2e2f42;
+    border-bottom: 1px solid #E7E9FC;
     }
     .header-logo{
     font-family: "Raleway", sans-serif;
@@ -34,6 +41,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
     }
     .heder-logo-studio{
     font-family: "Raleway", sans-serif;
@@ -56,6 +64,10 @@ body{
       padding: 0;
      list-style: none;
     }
+    .nav-list{
+      display: flex;
+      gap: 40px;
+    }
     .nav-menu{
     color: #2e2f42; 
     font-weight: 500;
@@ -71,7 +83,13 @@ body{
      color: #404bbf;
      }
      .address{
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
+    
+     }
+     .address-list{
+      display: flex;
+      gap: 40px;
      }
     .nav-menu-address{
     display:flex; 
@@ -156,6 +174,7 @@ body{
     .our-team-card{
     background-color: #FFFFFF; 
     display: block;
+    height: auto;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     }
