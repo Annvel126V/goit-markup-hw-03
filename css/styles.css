@@ -16,7 +16,7 @@ body{
      h6 {
      margin: 0;
      }
-    .container{
+    .container-header{
     max-width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
@@ -62,7 +62,9 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: auto; 
+    margin-right: auto;
+    display: block; 
+    padding: 24px 0; 
      }
      .nav-menu:hover,
      .nav-menu:focus{
@@ -79,6 +81,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block; 
+    padding: 24px 0;
     }
     .nav-menu-address:hover,
     .nav-menu-address:focus{
