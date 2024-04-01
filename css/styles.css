@@ -226,7 +226,16 @@ body{
      letter-spacing: 0.02em;
      color: #434455;      
     }
+    .portfolio{
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
     
+    .portfolio-ul{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 48px 24px;
+    }
     .our-portfolio{
     font-weight: 700;
     font-size: 36px;
@@ -234,12 +243,21 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;    
+    color: #2e2f42;
+    margin-bottom: 72px;      
+    }
+    .li-portfolio{
+      width: calc((100% - 48px) / 3);
+      border-top: none;
+    }
+    .container-portfolio{
+      border: 1px solid #E7E9FC; 
+      padding: 32px 16px;
     }
     .our-portfolio-img{
       display: block;
       height: auto;
-      width: calc((100% - 72px) / 6);
+      width: 100%;
        
     }
     .our-portfolio-list{
@@ -248,7 +266,8 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;    
+    margin-bottom: 8px; 
+    padding-left: 16px;   
     }
     .our-portfolio-text{
     font-weight: 400;
@@ -256,6 +275,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
     }
     .footer{
     padding-top: 100px;
