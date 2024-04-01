@@ -144,6 +144,8 @@ body{
     letter-spacing: 0.04em;
     cursor: pointer; 
     color: #fff; 
+    min-width: 169px;
+    height: 59px;
     padding: 16px 32px;
     margin: 0 auto;
     display: block;
