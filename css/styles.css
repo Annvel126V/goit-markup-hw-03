@@ -128,9 +128,9 @@ body{
     letter-spacing: 0.02em;
     color: #fff;
     max-width: 496px;
-    margin: 0 auto;
-    justify-content: space-around;
-    align-items: center;
+    margin: 0 auto ;
+    margin-bottom: 48px;
+    
 
     }
     .button{
@@ -152,15 +152,24 @@ body{
     .button:focus{
      background-color: #404BBF;
     }
-    .options-menu{
+    .options{
      padding: 120px 0;
     }
-    .options{
+    .visually-hidden {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    overflow: hidden;
+    position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
     
     }
     
@@ -188,6 +197,7 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
     }
+    
     .our-team{
     padding-top: 120px;
     padding-bottom: 120px;
