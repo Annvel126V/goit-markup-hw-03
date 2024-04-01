@@ -158,8 +158,7 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
     }
     
     .ul-options-list{
@@ -168,7 +167,7 @@ body{
       gap: 24;
     }
     .li-options-list{
-      width: calc((100% - 24px) / 4);
+      width: calc((100% - 72px) / 4);
       border-radius: 0 0 4px 4px;
     }
     .options-list {
@@ -204,7 +203,7 @@ body{
     background-color: #FFFFFF; 
     display: block;
     height: auto;
-    width: calc((100% - 24px * 3) / 4);
+    width: 100%;
     
     
     }
