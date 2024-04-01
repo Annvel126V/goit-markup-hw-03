@@ -157,11 +157,16 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;
+    }
+    .container-wraper{   
+    }
+    .li-options-list{
+      width: calc((100% - 72px) / 4);
+      border-radius: 0 0 4px 4px;
     }
     .options-list {
-    display:flex;
-    flex-direction: row; 
+    margin-bottom: 8px; 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -263,6 +268,7 @@ body{
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    padding-left: 8px;
     }
     .footer-logo-studio{
     font-family: "Raleway", sans-serif;
@@ -280,5 +286,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd; 
-    max-width: 264px;   
+    max-width: 264px;
+    padding-left: 8px;   
     }
