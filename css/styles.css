@@ -114,10 +114,8 @@ body{
     
     .caption{
     background-color: #2e2f42;
-    max-width: 2122px; 
-    padding: 76px;
-    margin: 0 auto;
-    display: flex;
+    padding: 188px 0;
+    margin-bottom: 48px;
     align-items: center;
     justify-content: space-evenly;
       
@@ -145,6 +143,8 @@ body{
     cursor: pointer; 
     color: #fff; 
     margin: 0 auto;
+    display: block;
+    border-radius: ;
     justify-content: center;
     align-items: flex-end;
     
@@ -158,13 +158,14 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    overflow:hidden;
     
     }
     
     .ul-options-list{
       padding-left: 0;
       display: flex;
-      gap: 24;
+      gap: 24px;
     }
     .li-options-list{
       width: calc((100% - 72px) / 4);
@@ -189,6 +190,7 @@ body{
     padding-top: 120px;
     padding-bottom: 120px;
     background: #f4f4fd; 
+    margin-bottom: 72px;
     }
     .our-team-titel{
     font-weight: 700;
