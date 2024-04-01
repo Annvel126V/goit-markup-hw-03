@@ -32,6 +32,8 @@ body{
     .header{
     color: #2e2f42;
     border-bottom: 1px solid #E7E9FC;
+    margin-top: 24px;
+    margin-bottom: 24px;
     }
     .header-logo{
     font-family: "Raleway", sans-serif;
@@ -191,7 +193,7 @@ body{
     background-color: #FFFFFF; 
     display: block;
     height: auto;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 24px * 3) / 4);
     
     
     }
