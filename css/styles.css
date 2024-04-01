@@ -216,6 +216,7 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding: 120px;
     }
     .ul-our-team{
       display: flex;
@@ -248,7 +249,8 @@ body{
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #434455;      
+     color: #434455; 
+     padding: 8px;     
     }
     .portfolio{
       padding-top: 120px;
@@ -336,5 +338,5 @@ body{
     letter-spacing: 0.02em;
     color: #f4f4fd; 
     max-width: 264px;
-       
-    }
+     }  
+    
