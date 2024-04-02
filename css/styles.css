@@ -178,7 +178,7 @@ body{
     }
     .li-options-list{
       width: calc((100% - 72px) / 4);
-      border-radius: 0 0 4px 4px;
+      border-radius: 0px 0px 4px 4px;
     }
     .options-list {
     margin-bottom: 8px; 
